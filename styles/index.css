@@ -1,0 +1,202 @@
+/* Start of Header */
+.container {
+  background-image: url(/images/jumbotronpic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 11400px;
+  min-height: 107vh;
+}
+
+.navbar-brand {
+  width: 70%;
+  padding-left: 5%;
+  padding-top: 5%;
+  position: absolute;
+  left: 100px;
+  margin: 0 0 20px;
+}
+a.nav-link {
+  text-transform: uppercase;
+  font: normal normal bold 30px/35px Galvji;
+  font-size: 20px;
+  padding-top: 60px;
+  margin-right: 57px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(172, 162, 162);
+}
+
+.fa-facebook-square,
+.fa-envelope,
+.fa-instagram {
+  color: white;
+  list-style: none outside none;
+  font-size: 35px;
+  padding-left: 10%;
+  margin-top: 0.5%;
+}
+
+.social-links {
+  padding-top: 20%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Query*/
+
+@media screen and (min-width: 480px) {
+  .custom-toggler {
+    margin-left: 90%;
+  }
+  .logo {
+    width: 17%;
+    padding-top: 10%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #f4f4f4;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link {
+    background-color: rgb(65, 60, 60);
+  }
+}
+/* End of Header */
+
+/* Start of Body */
+.body {
+  background-color: rgb(26, 26, 26);
+  max-width: 11400px;
+  min-height: 180vh;
+  color: white;
+}
+
+h2 {
+  padding-top: 2%;
+  margin-left: 10%;
+  font: normal normal normal 60px/203px Zapfino;
+  opacity: 1;
+  font-size: 200%;
+}
+
+h3 {
+  margin-bottom: 10%;
+  font-size: 200%;
+}
+.kona-meal-description {
+  background-color: rgb(56, 56, 56);
+  padding: 50px;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  text-align: center;
+  font: normal normal normal Galvji;
+  width: 350px;
+  height: 298px;
+  letter-spacing: 1px;
+}
+
+.kona-plate img {
+  width: 53%;
+  height: 50%;
+  float: right;
+  margin-top: -39%;
+  padding-right: 10%;
+}
+
+.lamb-marsala-wok img {
+  width: 45%;
+  height: 50%;
+  margin-top: 9%;
+  padding-left: 7%;
+}
+
+.lamb-meal-description {
+  background-color: rgb(56, 56, 56);
+  padding: 50px;
+  padding-bottom: 10%;
+  margin-left: 60%;
+  margin-top: -30%;
+  text-align: center;
+  font: normal normal normal Galvji;
+  width: 350px;
+  height: 298px;
+  letter-spacing: 1px;
+}
+
+/* End of Body */
+
+/* Start Of Address Section */
+
+.address {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(/images/home-page-location.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 11400px;
+  min-height: 40vh;
+}
+
+.location {
+  color: white;
+  padding-left: 35%;
+}
+
+.location p {
+  font-size: 20px;
+  padding-left: 11%;
+  margin-top: -9%;
+}
+/* End Of Address Section */
+
+/* Footer */
+
+/* .copyright {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.email {
+  padding-top: 1%;
+}
+
+.number {
+  color: re;
+} */
+
+footer {
+  text-align: center;
+  padding-top: 2%;
+  background-color: black;
+  color: white;
+  min-height: 18vh;
+}
+
+footer a {
+  color: white;
+  margin-bottom: 20%;
+}
+
+footer .number {
+  margin-top: -1.1%;
+}
